@@ -6,21 +6,26 @@ using namespace std;
 int main()
 {
   int=N;
-  cout<<"Dame un valor entre 1,2"<<endl;
+  cout<<"Dame tu calificación"<<endl;
   cin>>N;
   if(N<8)
     cout<<" examenes=70%, tareas=15%, participaciones=15%"<<endl;
     if(N>=8){
       switch (N){
-      case  0: cout<<"examen"<<endl;
+      case  1: cout<<"examen"<<endl;
+		      if(tareas=0; participacion=0)
       break;
-      case  8:  cout<< "examenes=70%, tareas=15%, participaciones=15%"<<endl;
+      case  2: cout<< "examenes=70%, tareas=15%, participaciones=15%"<<endl;
+		      if(tareas>0; participacion>0)
       break;
-      case 1 : cout<< "examenes=85%, participaciones=15%"<<endl;
+      case 3: cout<< "examenes=85%, participaciones=15%"<<endl;
+		      if(tareas=0)
 	break;
-      case 3 : cout<<"examenes=85%, tareas=15%"<<endl;
+      case 4: cout<<"examenes=85%, tareas=15%"<<endl;
+		      if(participacion=0)
 	break;
       default: cout<<"Opción no Válida"<<endl;
-    }
+      }
+ }
   return 0;
 }
